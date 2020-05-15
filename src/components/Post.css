@@ -1,0 +1,60 @@
+.post {
+  width: 450px;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background: white;
+}
+
+.post:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.post h3 {
+  font-family: 'Inter', sans-serif;
+  color: black ;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+.post h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  margin: 8px 0px;
+  background: #aecadd ;
+  border-radius: 10px;
+  
+}
+
+.post p {
+  font-size: 15px;
+  line-height: 23px;
+  text-align: justify;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.post a {
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+a.post-btn {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-top: 20px;
+  background: #b2d8dc;
+  font-family: 'Inter', sans-serif;
+}

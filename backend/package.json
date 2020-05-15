@@ -1,0 +1,31 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "validator": "^13.0.0"
+  }
+}
